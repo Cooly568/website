@@ -3,7 +3,7 @@ hash=$(git rev-parse --short HEAD)
 branch=$(git rev-parse --abbrev-ref HEAD)
 # Add CNAME
 # (COMMENT OUT THIS LINE LATER!!!)
-# echo 'orca.flights' >> dist/CNAME
+echo 'orca.flights' >> dist/CNAME
 # Check if clean
 if [[ $(git status --porcelain) ]]; then
     echo "Not clean! Exiting..."
